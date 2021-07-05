@@ -10,6 +10,7 @@ Route::get('/', function () {
 Route::get('/resultado', function () {return view('welcome2');})->name('welcome2');
 
 // Route::get('/opera/descarga', 'App\Http\Controllers\Paginas@descarga')->name('descarga');
+// Route::get('/opera/descarga', 'App\Http\Controllers\Paginas@descarga')->name('descarga');
 
 Route::post('opera/opera','App\Http\Controllers\Paginas@opera')->name('opera');
 
